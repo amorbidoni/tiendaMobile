@@ -1,0 +1,264 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+@import "productos";
+@import "carrito";
+@import "tragos";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+}
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  width: 100%;
+  background-image: url(../images/vinosBanner_mob.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 30px;
+  height: 80px;
+  position: relative;
+  .logo-container {
+    position: absolute;
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 0 0 20px;
+    border: 1px solid #666;
+    width: 80px;
+    height: 80px;
+    border-radius: 100px;
+    z-index: 1;
+    img {
+      width: 90px;
+    }
+  }
+}
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80px;
+  background-color: black;
+  p {
+    margin: 0;
+    font: size 1.3rem;
+    color: white;
+  }
+  .redes-container {
+    margin-left: 30px;
+    svg {
+      display: none;
+      width: 43px;
+      fill: #bd127c;
+    }
+  }
+}
+.navBar-container {
+  min-height: 100vh;
+  background: linear-gradient(
+      20deg,
+      #a20b30 0.01%,
+      rgba(152, 28, 109, 0.4) 30%,
+      rgb(10, 7, 9) 80%,
+      black 100%
+    ),
+    linear-gradient(130deg, #460155, black);
+  .container__navBtn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 70px;
+    text-align: center;
+    border: 1px solid black;
+    margin: 20px 0;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px #4d0b41;
+    transition: 0.2s;
+    p {
+      position: relative;
+      font-weight: 400;
+      font-size: 1.5rem;
+      color: white;
+      letter-spacing: 2px;
+    }
+    &.navBar-malbec {
+      position: relative;
+
+      &::before {
+        content: "";
+        background-image: url(../images/vinosBanner_mob.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        opacity: 0.3;
+        border-radius: 10px;
+        z-index: 1;
+      }
+      &::after {
+        content: "";
+        background: linear-gradient(
+          0deg,
+          rgba(255, 255, 255, 1) 0%,
+          rgba(0, 0, 0, 1) 40%,
+          rgba(13, 13, 13, 1) 63%,
+          rgba(255, 255, 255, 1) 100%
+        );
+        position: absolute;
+        width: 100%;
+        height: 70px;
+        top: 0px;
+        left: 0px;
+        z-index: 0;
+        opacity: 0.5;
+        border-radius: 10px;
+      }
+      p {
+        z-index: 2;
+      }
+    }
+  }
+}
+.btn-pressed-navBar {
+  box-shadow: none !important;
+  transform: translateY(1px);
+}
+.carrito-container {
+  float: right;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 100;
+  background: linear-gradient(
+    0deg,
+    rgba(96, 96, 96, 1) 0%,
+    rgba(0, 0, 0, 1) 40%,
+    rgba(13, 13, 13, 1) 63%,
+    rgba(96, 96, 96, 1) 100%
+  );
+  border: 1px solid #666;
+  border-radius: 50px;
+  width: 90px;
+  height: 50px;
+  img {
+    width: 30px;
+  }
+  p {
+    color: #0af23c;
+    margin-left: 5px;
+  }
+}
+.container__carousel {
+  margin: 20px auto;
+  display: block;
+  width: 90%;
+  min-height: 140px;
+  overflow: hidden;
+  background-color: transparent;
+  border-radius: 10px;
+
+  .carousel--slider {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 300%;
+    .carousel-item {
+      width: 100%;
+      height: 250px;
+      overflow: hidden;
+      img {
+        border-radius: 10px;
+        width: 100%;
+        object-fit: cover;
+      }
+    }
+  }
+}
+.footer {
+  height: 150px;
+  background-color: #242424;
+  .container__redes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+    width: 100%;
+    height: 50px;
+    .container__whatsapp {
+      padding-top: 3px;
+      cursor: pointer;
+      svg {
+        width: 50px;
+        height: 50px;
+        fill: #3db94d;
+      }
+    }
+  }
+}
+.container--instagram {
+  width: 43px;
+  height: 43px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+  img {
+    width: 43px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+  }
+  .background-insta {
+    position: absolute;
+    top: 0;
+    width: 500%;
+    height: 43px;
+    background: linear-gradient(
+      45deg,
+      rgba(242, 201, 83, 1) 2%,
+      rgba(238, 76, 65, 1) 15%,
+      rgba(190, 55, 134, 1) 25%,
+      rgba(65, 98, 191, 1) 34%,
+      rgba(153, 68, 151, 1) 45%,
+      rgba(224, 70, 86, 1) 56%,
+      rgba(241, 176, 79, 1) 65%,
+      rgba(228, 72, 79, 1) 74%,
+      rgba(153, 68, 151, 1) 85%,
+      rgba(92, 89, 179, 1) 99%
+    );
+    z-index: 1;
+    animation-name: backgroundInstaAnimation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+}
+
+@keyframes backgroundInstaAnimation {
+  0% {
+    left: 0;
+  }
+
+  50% {
+    left: -172px;
+  }
+  100% {
+    left: 0;
+  }
+}

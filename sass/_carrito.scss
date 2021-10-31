@@ -1,0 +1,110 @@
+.container__carritoDeCompras {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.container__productos--carrito {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+.producto__carrito {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 10px auto;
+  background: #f5f4f7;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+.container__img {
+  margin: 0 10px;
+  img {
+    width: 30px;
+  }
+}
+.container__info--compra {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  .calculador__compra {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    justify-self: flex-end;
+    margin-left: 10px;
+  }
+}
+.controllers--carrito {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  flex-wrap: nowrap;
+  width: 180px;
+  .btn__compra--deco {
+    margin: 0 5px;
+    background: linear-gradient(
+      0deg,
+      rgba(96, 96, 96, 1) 0%,
+      rgba(0, 0, 0, 1) 40%,
+      rgba(13, 13, 13, 1) 63%,
+      rgba(96, 96, 96, 1) 100%
+    );
+    border: none;
+    width: 50px;
+    height: 40px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px #c9c9c9;
+    transition: 0.1s;
+    img {
+      width: 20px;
+    }
+  }
+}
+.total__compra--carrito {
+  padding-bottom: 20px;
+  p {
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+  }
+  .precio-anterior {
+    text-decoration: line-through;
+    font-size: 0.9rem;
+    color: rgb(187, 187, 187);
+    margin-left: 5px;
+  }
+}
+.container__descuento {
+  margin-top: 30px;
+  text-align: center;
+  color: rgb(96, 177, 96);
+}
+.container__realizar--compra {
+  button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 200px;
+    margin: 0 auto;
+    background: linear-gradient(
+      0deg,
+      rgba(96, 96, 96, 1) 0%,
+      rgba(0, 0, 0, 1) 40%,
+      rgba(13, 13, 13, 1) 63%,
+      rgba(96, 96, 96, 1) 100%
+    );
+    border: none;
+    border-radius: 5px;
+    p {
+      font-size: 1.3rem;
+      color: white;
+    }
+    svg {
+      width: 40px;
+      fill: green;
+    }
+  }
+}

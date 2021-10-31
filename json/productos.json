@@ -1,0 +1,225 @@
+{
+  "malbec": [
+    {
+      "id": "001",
+      "nombre": "Biribiri",
+      "varietal": "Malbec",
+      "precio": 450,
+      "stock": 20,
+      "image": "../images/vinos/biribiriReservaTrans.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    },
+    {
+      "id": "002",
+      "nombre": "La Posta Paulucci",
+      "varietal": "Malbec",
+      "precio": 1250,
+      "stock": 6,
+      "image": "../images/vinos/laPostaPaulucciTrans.png",
+      "cantidadElegida": 0
+    },
+    {
+      "id": "003",
+      "nombre": "El Gaucho",
+      "varietal": "Malbec",
+      "precio": 700,
+      "stock": 12,
+      "image": "../images/vinos/elGauchoTrans.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    },
+    {
+      "id": "004",
+      "nombre": "Pispi",
+      "varietal": "Malbec",
+      "precio": 1000,
+      "stock": 7,
+      "image": "../images/vinos/pispiTrans.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    },
+    {
+      "id": "005",
+      "nombre": "Vinyes",
+      "varietal": "Malbec Cot",
+      "precio": 2100,
+      "stock": 2,
+      "image": "../images/vinos/vinyesCot.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    },
+    {
+      "id": "006",
+      "nombre": "Animal",
+      "varietal": "Malbec, Orgánico",
+      "precio": 790,
+      "stock": 12,
+      "image": "../images/vinos/animalTrans.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    },
+    {
+      "id": "007",
+      "nombre": "Bendito Pecado",
+      "varietal": "Malbec",
+      "precio": 790,
+      "stock": 12,
+      "image": "../images/vinos/benditoPecadoMalbec.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    },
+    {
+      "id": "008",
+      "nombre": "Contra Viento",
+      "varietal": "Malbec",
+      "precio": 400,
+      "stock": 7,
+      "image": "../images/vinos/pispiTrans.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    }
+  ],
+  "cabernet": [
+    {
+      "id": "009",
+      "nombre": "Bendito Pecado",
+      "varietal": "Cabernet Sauvignon",
+      "precio": 700,
+      "stock": 20,
+      "image": "../images/vinos/benditoPecadoCF.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    },
+    {
+      "id": "010",
+      "nombre": "Relator",
+      "varietal": "Cabernet Franc",
+      "precio": 800,
+      "stock": 6,
+      "image": "../images/vinos/relatorCF.png",
+      "cantidadElegida": 0
+    },
+    {
+      "id": "011",
+      "nombre": "Sombrero",
+      "varietal": "Cabernet Franc",
+      "precio": 900,
+      "stock": 12,
+      "image": "../images/vinos/sombreroCF.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    },
+    {
+      "id": "012",
+      "nombre": "Sombrero",
+      "varietal": "Cabernet Sauvignon",
+      "precio": 1000,
+      "stock": 7,
+      "image": "../images/vinos/sombreroCS.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    },
+    {
+      "id": "013",
+      "nombre": "Zorro Salvaje de Uco",
+      "varietal": "Cabernet Sauvignon",
+      "precio": 2100,
+      "stock": 2,
+      "image": "../images/vinos/zorroCS.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    },
+    {
+      "id": "014",
+      "nombre": "Salentain",
+      "varietal": "Cabernet Sauvignon",
+      "precio": 900,
+      "stock": 12,
+      "image": "../images/vinos/salentainCS.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    },
+    {
+      "id": "015",
+      "nombre": "Andillan",
+      "varietal": "Cabernet Franc",
+      "precio": 790,
+      "stock": 12,
+      "image": "../images/vinos/andillianCF.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    }
+  ],
+  "blancosYRosados": [
+    {
+      "id": "016",
+      "nombre": "Las Perdices",
+      "varietal": "Fumé Blanc",
+      "precio": 950,
+      "stock": 20,
+      "image": "../images/vinos/lasPerdicesFumeBlanc.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    },
+    {
+      "id": "017",
+      "nombre": "Paso a Paso",
+      "varietal": "Rosado de Criolla",
+      "precio": 500,
+      "stock": 6,
+      "image": "../images/vinos/pasoAPasoRose.png",
+      "cantidadElegida": 0
+    },
+    {
+      "id": "018",
+      "nombre": "Paso a Paso",
+      "varietal": "Clarete",
+      "precio": 500,
+      "stock": 12,
+      "image": "../images/vinos/pasoAPasoClarete.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    },
+    {
+      "id": "019",
+      "nombre": "Padrillos Trifecta",
+      "varietal": "Blend",
+      "precio": 830,
+      "stock": 7,
+      "image": "../images/vinos/padrillosTrifecta.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    },
+    {
+      "id": "020",
+      "nombre": "Zun Zun",
+      "varietal": "Rosado de Malbec",
+      "precio": 650,
+      "stock": 2,
+      "image": "../images/vinos/zunzunRosado.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    },
+    {
+      "id": "021",
+      "nombre": "Zun Zun ",
+      "varietal": "Naranjo",
+      "precio": 650,
+      "stock": 12,
+      "image": "../images/vinos/zunzunNaranjo.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    },
+    {
+      "id": "022",
+      "nombre": "Hey Rose",
+      "varietal": "Rosado",
+      "precio": 1200,
+      "stock": 12,
+      "image": "../images/vinos/heyRose.png",
+      "cantidadElegida": 0,
+      "subtotal": 0
+    }
+  ]
+}

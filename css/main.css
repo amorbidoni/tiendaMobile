@@ -1,0 +1,492 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400&display=swap");
+.productos__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  background-color: black;
+  min-height: 100vh;
+}
+
+.productos__container .producto-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 10px;
+  text-align: center;
+  margin: 20px 0;
+  background-color: #f7f7f7;
+  box-shadow: 5px 5px 10px #666;
+}
+
+.productos__container .producto-container .image-container {
+  width: 100%;
+  border-bottom: 1px solid black;
+  padding-top: 10px;
+}
+
+.productos__container .producto-container .image-container img {
+  width: 50px;
+}
+
+.productos__container .producto-container .info-producto {
+  padding-bottom: 10px;
+}
+
+.btn-deco {
+  border: none;
+  color: white;
+  font-weight: 400;
+  height: 30px;
+  background: linear-gradient(0deg, #606060 0%, black 40%, #0d0d0d 63%, #606060 100%);
+  width: 100px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px #c9c9c9;
+  transition: 0.1s;
+}
+
+.btn-clicked {
+  box-shadow: none !important;
+  transform: translateY(1px);
+  background: linear-gradient(0deg, #656565 0%, black 19%, #0d0d0d 88%, #656565 100%);
+}
+
+.blends__container {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.blends__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.container__carritoDeCompras {
+  background-color: black;
+  min-height: 100vh;
+}
+
+.container__productos--carrito {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+}
+
+.producto__carrito {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 10px auto;
+  background: #f5f4f7;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.container__img {
+  margin: 0 10px;
+}
+
+.container__img img {
+  width: 30px;
+}
+
+.container__info--compra {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container__info--compra .calculador__compra {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  justify-self: flex-end;
+  margin-left: 10px;
+}
+
+.controllers--carrito {
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  flex-wrap: nowrap;
+  width: 180px;
+}
+
+.controllers--carrito .btn__compra--deco {
+  margin: 0 5px;
+  background: linear-gradient(0deg, #606060 0%, black 40%, #0d0d0d 63%, #606060 100%);
+  border: none;
+  width: 50px;
+  height: 40px;
+  border-radius: 50px;
+  box-shadow: 5px 5px 10px #c9c9c9;
+  transition: 0.1s;
+}
+
+.controllers--carrito .btn__compra--deco img {
+  width: 20px;
+}
+
+.total__compra--carrito {
+  padding-bottom: 20px;
+}
+
+.total__compra--carrito p {
+  text-align: center;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.total__compra--carrito .precio-anterior {
+  text-decoration: line-through;
+  font-size: 0.9rem;
+  color: #bbbbbb;
+  margin-left: 5px;
+}
+
+.container__descuento {
+  margin-top: 30px;
+  text-align: center;
+  color: #60b160;
+}
+
+.container__realizar--compra button {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 200px;
+  margin: 0 auto;
+  background: linear-gradient(0deg, #606060 0%, black 40%, #0d0d0d 63%, #606060 100%);
+  border: none;
+  border-radius: 5px;
+}
+
+.container__realizar--compra button p {
+  font-size: 1.3rem;
+  color: white;
+}
+
+.container__realizar--compra button svg {
+  width: 40px;
+  fill: green;
+}
+
+.container__tragos {
+  min-height: 100vh;
+  background-color: black;
+}
+
+.container__tragos .buscador__tragos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.container__tragos .buscador__tragos .input--tragos {
+  width: 250px;
+  height: 45px;
+  border: 1px solid #666;
+  border-radius: 5px;
+  padding-left: 5px;
+  font-size: 1.3rem;
+  box-sizing: border-box;
+}
+
+.container__tragos .buscador__tragos button {
+  width: 100px;
+  height: 45px;
+  background: linear-gradient(0deg, #606060 0%, black 40%, #0d0d0d 63%, #606060 100%);
+  border: 1px solid #666;
+  border-radius: 5px;
+  color: white;
+}
+
+.trago--tarjeta .container__trago--individual {
+  width: 80%;
+  margin: 10px auto;
+  background-color: #d8d8d8;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.trago--tarjeta .container__trago--individual img {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+}
+
+.trago--tarjeta .container__trago--individual .nombre-trago {
+  font-size: 1.5rem;
+  text-align: center;
+}
+
+.mensaje-de-error {
+  width: 80%;
+  color: white;
+  margin: 40px auto;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Playfair Display", serif;
+}
+
+.flex-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  background-image: url(../images/vinosBanner_mob.png);
+  background-position: center;
+  background-size: cover;
+  padding-top: 30px;
+  height: 80px;
+  position: relative;
+}
+
+.header .logo-container {
+  position: absolute;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0 0 20px;
+  border: 1px solid #666;
+  width: 80px;
+  height: 80px;
+  border-radius: 100px;
+  z-index: 1;
+}
+
+.header .logo-container img {
+  width: 90px;
+}
+
+.title-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 80px;
+  background-color: black;
+}
+
+.title-container p {
+  margin: 0;
+  font: size 1.3rem;
+  color: white;
+}
+
+.title-container .redes-container {
+  margin-left: 30px;
+}
+
+.title-container .redes-container svg {
+  display: none;
+  width: 43px;
+  fill: #bd127c;
+}
+
+.navBar-container {
+  min-height: 100vh;
+  background: linear-gradient(20deg, #a20b30 0.01%, rgba(152, 28, 109, 0.4) 30%, #0a0709 80%, black 100%), linear-gradient(130deg, #460155, black);
+}
+
+.navBar-container .container__navBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 90%;
+  height: 70px;
+  text-align: center;
+  border: 1px solid black;
+  margin: 20px 0;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 5px 5px 10px #4d0b41;
+  transition: 0.2s;
+}
+
+.navBar-container .container__navBtn p {
+  position: relative;
+  font-weight: 400;
+  font-size: 1.5rem;
+  color: white;
+  letter-spacing: 2px;
+}
+
+.navBar-container .container__navBtn.navBar-malbec {
+  position: relative;
+}
+
+.navBar-container .container__navBtn.navBar-malbec::before {
+  content: "";
+  background-image: url(../images/vinosBanner_mob.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.3;
+  border-radius: 10px;
+  z-index: 1;
+}
+
+.navBar-container .container__navBtn.navBar-malbec::after {
+  content: "";
+  background: linear-gradient(0deg, white 0%, black 40%, #0d0d0d 63%, white 100%);
+  position: absolute;
+  width: 100%;
+  height: 70px;
+  top: 0px;
+  left: 0px;
+  z-index: 0;
+  opacity: 0.5;
+  border-radius: 10px;
+}
+
+.navBar-container .container__navBtn.navBar-malbec p {
+  z-index: 2;
+}
+
+.btn-pressed-navBar {
+  box-shadow: none !important;
+  transform: translateY(1px);
+}
+
+.carrito-container {
+  float: right;
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 100;
+  background: linear-gradient(0deg, #606060 0%, black 40%, #0d0d0d 63%, #606060 100%);
+  border: 1px solid #666;
+  border-radius: 50px;
+  width: 90px;
+  height: 50px;
+}
+
+.carrito-container img {
+  width: 30px;
+}
+
+.carrito-container p {
+  color: #0af23c;
+  margin-left: 5px;
+}
+
+.container__carousel {
+  margin: 20px auto;
+  display: block;
+  width: 90%;
+  min-height: 140px;
+  overflow: hidden;
+  background-color: transparent;
+  border-radius: 10px;
+}
+
+.container__carousel .carousel--slider {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 300%;
+}
+
+.container__carousel .carousel--slider .carousel-item {
+  width: 100%;
+  height: 250px;
+  overflow: hidden;
+}
+
+.container__carousel .carousel--slider .carousel-item img {
+  border-radius: 10px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.footer {
+  height: 150px;
+  background-color: #242424;
+}
+
+.footer .container__redes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-top: 10px;
+  width: 100%;
+  height: 50px;
+}
+
+.footer .container__redes .container__whatsapp {
+  padding-top: 3px;
+  cursor: pointer;
+}
+
+.footer .container__redes .container__whatsapp svg {
+  width: 50px;
+  height: 50px;
+  fill: #3db94d;
+}
+
+.container--instagram {
+  width: 43px;
+  height: 43px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.container--instagram img {
+  width: 43px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.container--instagram .background-insta {
+  position: absolute;
+  top: 0;
+  width: 500%;
+  height: 43px;
+  background: linear-gradient(45deg, #f2c953 2%, #ee4c41 15%, #be3786 25%, #4162bf 34%, #994497 45%, #e04656 56%, #f1b04f 65%, #e4484f 74%, #994497 85%, #5c59b3 99%);
+  z-index: 1;
+  animation-name: backgroundInstaAnimation;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes backgroundInstaAnimation {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: -172px;
+  }
+  100% {
+    left: 0;
+  }
+}
